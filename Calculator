@@ -1,0 +1,39 @@
+#Calculator
+#for addition
+def add():
+    a=float(input("Enter your 1st number: "))
+    b=float(input("Enter your 2nd number: "))
+    print("your addition result is :",a+b)
+#for substraction
+def sub():
+    a=float(input("Enter your 1st number: "))
+    b=float(input("Enter your 2nd number: "))
+    print("your substraction result is :",a-b)
+#for multiplication
+def mul():
+    a=float(input("Enter your 1st number: "))
+    b=float(input("Enter your 2nd number: "))
+    print("your multiplication result is :",a*b)
+#for division
+def div():
+    a=float(input("Enter your 1st number: "))
+    b=float(input("Enter your 2nd number: "))
+    print("your division result is :",a/b)
+#for display all operations 
+while True:
+    print("1.ADDITION")    
+    print("2.SUBSTRACTION")
+    print("3.MULTIPLICATION")
+    print("4.DIVISION")
+    print("5.If you want end this program")
+    choice=input()
+    if choice=="1":
+        add()
+    elif choice=="2":
+        sub()
+    elif choice=="3":
+        mul()
+    elif choice=="4":
+        div()
+    elif choice=="5":
+        quit()
